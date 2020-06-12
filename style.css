@@ -1,0 +1,73 @@
+body {
+    background-image: url(img/fundo6.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+header {
+    position: absolute;
+    background-color: #E63946;
+    width: 25%;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+header i {
+    color: #F1FAEE;
+    font-size: 3rem;
+    margin-left: 72%;
+    padding-top: 5%;
+}
+
+nav {
+    font-family: 'Merriweather', serif;
+    font-size: 2.2rem;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul a i {
+    color: #F1FAEE;
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+    margin-left: 20%;
+}
+
+nav ul a :hover {
+    background-color: #457B9D;
+    padding-bottom: 10px;
+}
+
+li {
+    margin-top: 50px;
+}
+
+main {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin-left: 55%;
+    margin-top: 10%;
+}
+
+aside {
+    position: absolute;
+    margin-left: 72%;
+}
+
+.redes i {
+    color: #F1FAEE;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+footer {
+    font-family: 'Merriweather', serif;
+    font-size: 0.5rem;
+    color: #F1FAEE;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 43%;
+}
+
